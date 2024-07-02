@@ -34,6 +34,9 @@ a > span:hover {
 }
 
 .movie-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 3rem 3rem 3rem;
 }
 
@@ -113,6 +116,7 @@ a > span:hover {
   margin-bottom: 0.25rem;
 }
 
+
 /* Responsive styles */
 @media (max-width: 1200px) {
   .header {
@@ -176,6 +180,10 @@ a > span:hover {
     margin: 1.5rem;
   }
 
+  .list-card{
+    margin-left: 70px;
+  }
+
   .cards {
     min-width: 160px;
     height: 240px;
@@ -201,8 +209,8 @@ a > span:hover {
     font-size: 1rem;
   }
 
-  .movie-list {
-    padding: 0 0.5rem 0.5rem 0.5rem;
+  .list-card{
+    margin-left: 50px;
   }
 
   .list-title {
