@@ -37,7 +37,7 @@ const HomePage = () => {
         {movie.map((list) => (
           <Link
             key={list.id}
-            to={`.movies/${list.id}`}
+            to={`/movie/${list.id}`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <div className="posterImage">
