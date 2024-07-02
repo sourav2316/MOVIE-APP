@@ -30,7 +30,7 @@ const HomePage = () => {
       <Carousel
         showThumbs={false}
         autoPlay={true}
-        transitionTime={2}
+        transitionTime={3}
         infiniteLoop={true}
         showStatus={false}
       >
