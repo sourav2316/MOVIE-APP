@@ -31,7 +31,7 @@ const HomePage = () => {
         showThumbs={false}
         autoPlay={true}
         transitionTime={3}
-        infiniteLoop={true}
+        infiniteLoop
         showStatus={false}
       >
         {movie.map((list) => (

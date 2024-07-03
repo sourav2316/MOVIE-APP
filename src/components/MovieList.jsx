@@ -29,7 +29,7 @@ const MovieList = () => {
   return (
     <div className="movie-list">
       <h2 className="list-title">{(type ? type : "POPULAR").toUpperCase()}</h2>
-      <div className="list-card">
+      <div className="grid place-items-center gap-5 md:grid-cols-3 sm:grid-cols-3 max-md:grid-cols-4 lg:grid-cols-6 max-sm:grid-cols-2">
         {movieList.map((movie) => (
           <Card movie={movie} key={movie.id} />
         ))}

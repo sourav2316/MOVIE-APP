@@ -45,11 +45,11 @@ a > span:hover {
   margin: 2.5rem;
 }
 
-.list-cards {
+/* .list-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 .cards {
   display: inline-block;
